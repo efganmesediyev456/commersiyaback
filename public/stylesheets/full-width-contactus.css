@@ -1,0 +1,183 @@
+.contactus-grid {
+    float: left;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.contactus-list-left {
+    float: left;
+    width: 100%;
+    border-right: 1px solid #cdcbcc;
+    padding-bottom: 35px;
+}
+
+.contactus-details-right {
+    width: 100%;
+    padding-left: 30px;
+    float: right;
+}
+
+.contactus-list-left ul li a {
+    padding: 10px 20px;
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: right;
+    color: #10069f;
+}
+
+.contactus-list-left ul li a:hover {
+    background: #f0eeef;
+}
+
+.contactus-list-left ul li a.currlink {
+    background: #f0eeef;
+    color: #fc4191
+}
+
+.contactus-list-left ul li a.currlink::after {
+    content: ' ';
+    font-family: 'icons';
+    position: absolute;
+    right: 0px;
+    background: url("/~/media/Images/R/Rolls-Royce/css/curr-contact-arrow.png") no-repeat scroll;
+    width: 6px;
+    margin-top: 5px;
+    height: 11px;
+}
+
+.contactus-details-right .contactus-left {
+    width: 29%;
+    display: table-cell;
+}
+
+.section-slide-wrap {
+    float: left;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.section.sections-wrap .new-country-site-section.fw-intro-section.fw-full-width-text {
+    margin-top: 0px;
+}
+
+.contactus-heading {
+    color: #10069f;
+    text-align: center;
+    font-size: 2.857em;
+    line-height: 1.2;
+}
+
+.contactus-sub {
+    font-size: 1.5em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.mobi-contact-details {
+    display: none;
+}
+
+.mobi-contact-details.selected {
+    display: block;
+}
+
+.contactus-details-right .contactsus-inner .contactus-right-item {
+    display: none;
+}
+
+.contactus-details-right .contactsus-inner .contactus-right-item.selected {
+    display: block;
+}
+
+.mobi-contact-details-wrap {
+    padding: 20px 0;
+}
+
+.dropdowncu ul {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    display: none;
+    left: 0;
+    list-style-type: none;
+    margin: -3px 0 0;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    z-index: 100;
+}
+
+.dropdowncu a {
+    text-decoration: none;
+    color: #5b5b5b;
+}
+
+.dropdowncu {
+    position: relative;
+}
+
+.dropdowncu ul li {
+    cursor: pointer;
+    margin: 0;
+    padding: 5px 10px 0 5px;
+    text-align: left;
+}
+
+/*.new-second-level-navigation-outer {display: none;}*/
+
+.banner-mobi-img {
+    display: none !important;
+}
+
+.contact-details p strong {
+    color: #1e3643;
+    text-decoration: none;
+    font-size: 1.4em;
+    padding-bottom: 5px;
+}
+
+.contact-details p {
+    padding-bottom: 25px;
+    font-size: 1.1em;
+}
+
+.pad30 {
+    padding-bottom: 30px;
+}
+
+div#contactus-forms {
+    float: left;
+    width: 100%;
+    padding-top: 30px;
+}
+
+/* .homecontentwrapper {display: none;} */
+
+#defence-aerospace.ip3-contact-us #country-content-container,
+#marine-business-team.ip3-contact-us #country-content-container,
+#corporate-sustainability-team.ip3-contact-us #country-content-container,
+#heritage-team.ip3-contact-us #country-content-container,
+#helicopters-team.ip3-contact-us #country-content-container,
+#pensions-team.ip3-contact-us #country-content-container {
+    background: #f7f7f7;
+}
+
+@media all and (min-width: 921px) and (max-width: 1040px) {
+    .fw-en-form-wrapper #messageTA {
+        height: 157px;
+    }
+}
+
+.section.sections-wrap .new-country-site-section.fw-intro-section {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+@media all and (max-width:991px) and (min-width:768px) {
+    .contact-us-left-tablist {
+        padding: 0 30px;
+    }
+}

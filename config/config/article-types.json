@@ -1,0 +1,229 @@
+{
+    "articles": {
+        "news": {
+            "title": true,
+            "subtitle": true,
+            "description": true,
+            "date": true,
+            "image": true,
+            "gallery": true
+        },
+        "exploitation": {
+            "title": true,
+            "subtitle": true,
+            "description": true,
+            "date": true,
+            "image": true
+        },
+        "building": {
+            "title": true,
+            "subtitle": true,
+            "description": true,
+            "date": true,
+            "image": true
+        },
+        "production": {
+            "title": true,
+            "subtitle": true,
+            "description": true,
+            "date": true,
+            "image": true
+        },
+        "presentations": {
+            "title": true,
+            "subtitle": true,
+            "description": true,
+            "date": true,
+            "image": true
+        },
+        "corporative": {
+            "title": true,
+            "subtitle": true,
+            "description": true,
+            "date": true,
+            "image": true
+        },
+        "procurement": {
+            "title": true,
+            "subtitle": true,
+            "description": true,
+            "date": true,
+            "image": true
+        },
+        "suggestions": {
+            "title": true,
+            "subtitle": true,
+            "description": true,
+            "date": true,
+            "image": true
+        },
+        "photogallery": {
+            "title": true,
+            "image": true,
+            "date": true,
+            "gallery": true
+        },
+        "videogallery": {
+            "title": true,
+            "date": true,
+            "image": true,
+            "iframe": true
+        },
+        "events": {
+            "title": true,
+            "subtitle": true,
+            "description": true,
+            "date": true,
+            "image": true,
+            "noValidateImage": true
+        },
+        "social-platform": {
+            "title": true,
+            "subtitle": true,
+            "description": true,
+            "date": true,
+            "image": true,
+            "type": {
+                "0": "facebook",
+                "1": "instagram",
+                "2": "twitter"
+            }
+        },
+        "actual": {
+            "title": true,
+            "subtitle": true,
+            "description": true,
+            "date": true,
+            "image": true
+        },
+        "write-us": {
+            "title": true,
+            "subtitle": true,
+            "description": true,
+            "date": true,
+            "image": true
+        },
+        "world": {
+            "title": true,
+            "subtitle": true,
+            "description": true,
+            "date": true,
+            "image": true
+        },
+        "interesting": {
+            "title": true,
+            "subtitle": true,
+            "description": true,
+            "date": true,
+            "image": true
+        },
+        "subscription": {
+            "title": true,
+            "subtitle": true,
+            "description": true,
+            "date": true,
+            "image": true
+        },
+        "metropolitan-press": {
+            "title": true,
+            "subtitle": true,
+            "description": true,
+            "date": true,
+            "image": true
+        },
+        "publications": {
+            "title": true,
+            "subtitle": true,
+            "description": true,
+            "date": true,
+            "image": true
+        },
+        "archive": {
+            "title": true,
+            "subtitle": true,
+            "description": true,
+            "date": true,
+            "image": true
+        },
+        "competition": {
+            "title": true,
+            "subtitle": true,
+            "description": true,
+            "date": true,
+            "image": true
+        },
+        "infographics": {
+            "title": true,
+            "subtitle": true,
+            "description": true,
+            "date": true,
+            "image": true
+        },
+        "tetbiqteqdimatlar": {
+            "title": true,
+            "subtitle": true,
+            "description": true,
+            "date": true,
+            "image": true,
+            "gallery": true
+        }
+    },
+    "metrogallery": {
+        "children-art-gallery": {
+            "title": true,
+            "subtitle": true,
+            "description": true,
+            "image": true,
+            "gallery": true,
+            "noValidateImage": true
+        }
+    },
+    "training": {
+        "t-reference": {
+            "title": true,
+            "subtitle": true,
+            "description": true,
+            "image": true,
+            "noValidateImage": true
+        },
+        "history": {
+            "title": true,
+            "subtitle": true,
+            "description": true,
+            "image": true,
+            "noValidateImage": true
+        }
+    },
+    "howtouse": {
+        "plastickart": {
+            "title": true,
+            "description": true,
+            "image": true
+        },
+        "metroterminal": {
+            "title": true,
+            "description": true,
+            "image": true
+        },
+        "lettercard": {
+            "title": true,
+            "description": true,
+            "image": true
+        },
+        "bankcard": {
+            "title": true,
+            "description": true,
+            "date": true
+        },
+        "withmobile": {
+            "title": true,
+            "description": true,
+            "image": true
+        },
+        "withqrcode": {
+            "title": true,
+            "description": true,
+            "image": true
+        }
+    }
+}

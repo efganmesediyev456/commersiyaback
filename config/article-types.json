@@ -1,0 +1,196 @@
+{
+    "articles": {
+        "news": {
+            "title": true,
+            "subtitle": true,
+            "description": true,
+            "date": true,
+            "image": true,
+            "gallery": true
+        },
+        "photogallery": {
+            "title": true,
+            "image": true
+        },
+        "videogallery": {
+            "title": true,
+            "date": true,
+            "image": true,
+            "gallery": true,
+            "iframe": true
+        }
+    },
+    "metrogallery": {
+        "": {
+            "title": true,
+            "subtitle": true,
+            "image": true,
+            "noValidateImage": true
+        },
+        "Bakı metropoliteni-55: 55 ilin 5 ili": {
+            "title": true,
+            "description": true,
+            "image": true,
+            "noValidateImage": true
+        },
+        "Bakı metrosu 55:Yolları qovuşduran illər sərgisi": {
+            "title": true,
+            "description": true,
+            "image": true,
+            "noValidateImage": true
+        },
+        "Yolları qovuşduran illər sərgisi": {
+            "title": true,
+            "description": true,
+            "image": true,
+            "noValidateImage": true
+        }
+    },
+    "training": {
+        "t-reference": {
+            "title": true,
+            "subtitle": true,
+            "description": true,
+            "date": true,
+            "image": true,
+            "gallery": true,
+            "noValidateImage": true
+        },
+        "history": {
+            "title": true,
+            "subtitle": true,
+            "description": true,
+            "date": true,
+            "image": true,
+            "gallery": true,
+            "noValidateImage": true
+        },
+        "corners": {
+            "title": true,
+            "subtitle": true,
+            "description": true,
+            "date": true,
+            "image": true,
+            "gallery": true,
+            "noValidateImage": true
+        },
+        "teachingtraining": {
+            "title": true,
+            "subtitle": true,
+            "description": true,
+            "date": true,
+            "image": true,
+            "gallery": true,
+            "noValidateImage": true
+        },
+        "funds": {
+            "title": true,
+            "subtitle": true,
+            "description": true,
+            "date": true,
+            "image": true,
+            "gallery": true,
+            "noValidateImage": true
+        },
+        "projectsandpresentations": {
+            "title": true,
+            "subtitle": true,
+            "description": true,
+            "date": true,
+            "image": true,
+            "gallery": true,
+            "noValidateImage": true
+        },
+        "multimedia": {
+            "title": true,
+            "subtitle": true,
+            "description": true,
+            "date": true,
+            "image": true,
+            "gallery": true,
+            "noValidateImage": true
+        },
+        "news_training": {
+            "title": true,
+            "subtitle": true,
+            "description": true,
+            "date": true,
+            "image": true,
+            "gallery": true,
+            "noValidateImage": true
+        }
+    },
+    "howtouse": {
+        "plastickart": {
+            "title": true,
+            "description": true,
+            "image": true
+        },
+        "metroterminal": {
+            "title": true,
+            "description": true,
+            "image": true
+        },
+        "lettercard": {
+            "title": true,
+            "description": true,
+            "image": true
+        },
+        "bankcard": {
+            "title": true,
+            "description": true,
+            "date": true
+        },
+        "withmobile": {
+            "title": true,
+            "description": true,
+            "image": true
+        },
+        "withqrcode": {
+            "title": true,
+            "description": true,
+            "image": true
+        }
+    },
+    "satamm": {
+        "satamm_news": {
+            "title": true,
+            "subtitle": true,
+            "description": true,
+            "date": true,
+            "image": true,
+            "gallery": true
+        },
+        "covid19_pandemy": {
+            "title": true,
+            "subtitle": true,
+            "description": true,
+            "date": true,
+            "image": true,
+            "gallery": true
+        }
+    },
+    "brifing": {
+        "brifing": {
+            "title": true,
+            "description": true,
+            "date": true,
+            "image": true,
+            "gallery": true
+        },
+        "elanlar": {
+            "title": true,
+            "description": true,
+            "date": true,
+            "image": true,
+            "gallery": true
+        }
+    },
+    "video": {
+        "video": {
+            "title": true,
+            "image": true,
+            "iframe": true
+        }
+    }
+}

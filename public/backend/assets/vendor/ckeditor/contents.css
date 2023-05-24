@@ -1,0 +1,520 @@
+/*
+Copyright (c) 2003-2018, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
+*/
+
+body
+{
+	/* Font */
+	/* Emoji fonts are added to visualise them nicely in Internet Explorer. */
+	font-family: sans-serif, Arial, Verdana, "Trebuchet MS", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-size: 12px;
+
+	/* Text color */
+	color: #333;
+
+	/* Remove the background color to make it transparent. */
+	background-color: #fff;
+
+	margin: 20px;
+}
+
+.cke_editable
+{
+	font-size: 13px;
+	line-height: 1.6;
+
+	/* Fix for missing scrollbars with RTL texts. (#10488) */
+	word-wrap: break-word;
+}
+
+blockquote
+{
+	font-style: italic;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	padding: 2px 0;
+	border-style: solid;
+	border-color: #ccc;
+	border-width: 0;
+}
+
+.cke_contents_ltr blockquote
+{
+	padding-left: 20px;
+	padding-right: 8px;
+	border-left-width: 5px;
+}
+
+.cke_contents_rtl blockquote
+{
+	padding-left: 8px;
+	padding-right: 20px;
+	border-right-width: 5px;
+}
+
+a
+{
+	color: #0782C1;
+}
+
+ol,ul,dl
+{
+	/* IE7: reset rtl list margin. (#7334) */
+	*margin-right: 0px;
+	/* Preserved spaces for list items with text direction different than the list. (#6249,#8049)*/
+	padding: 0 40px;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	font-weight: normal;
+	line-height: 1.2;
+}
+
+hr
+{
+	border: 0px;
+	border-top: 1px solid #ccc;
+}
+
+img.right
+{
+	border: 1px solid #ccc;
+	float: right;
+	margin-left: 15px;
+	padding: 5px;
+}
+
+img.left
+{
+	border: 1px solid #ccc;
+	float: left;
+	margin-right: 15px;
+	padding: 5px;
+}
+
+pre
+{
+	white-space: pre-wrap; /* CSS 2.1 */
+	word-wrap: break-word; /* IE7 */
+	-moz-tab-size: 4;
+	tab-size: 4;
+}
+
+.marker
+{
+	background-color: Yellow;
+}
+
+span[lang]
+{
+	font-style: italic;
+}
+
+figure
+{
+	text-align: center;
+	outline: solid 1px #ccc;
+	background: rgba(0,0,0,0.05);
+	padding: 10px;
+	margin: 10px 20px;
+	display: inline-block;
+}
+
+figure > figcaption
+{
+	text-align: center;
+	display: block; /* For IE8 */
+}
+
+a > img {
+	padding: 1px;
+	margin: 1px;
+	border: none;
+	outline: 1px solid #0782C1;
+}
+
+/* Widget Styles */
+.code-featured
+{
+	border: 5px solid red;
+}
+
+.math-featured
+{
+	padding: 20px;
+	box-shadow: 0 0 2px rgba(200, 0, 0, 1);
+	background-color: rgba(255, 0, 0, 0.05);
+	margin: 10px;
+}
+
+.image-clean
+{
+	border: 0;
+	background: none;
+	padding: 0;
+}
+
+.image-clean > figcaption
+{
+	font-size: .9em;
+	text-align: right;
+}
+
+.image-grayscale
+{
+	background-color: white;
+	color: #666;
+}
+
+.image-grayscale img, img.image-grayscale
+{
+	filter: grayscale(100%);
+}
+
+.embed-240p
+{
+	max-width: 426px;
+	max-height: 240px;
+	margin:0 auto;
+}
+
+.embed-360p
+{
+	max-width: 640px;
+	max-height: 360px;
+	margin:0 auto;
+}
+
+.embed-480p
+{
+	max-width: 854px;
+	max-height: 480px;
+	margin:0 auto;
+}
+
+.embed-720p
+{
+	max-width: 1280px;
+	max-height: 720px;
+	margin:0 auto;
+}
+
+.embed-1080p
+{
+	max-width: 1920px;
+	max-height: 1080px;
+	margin:0 auto;
+}
+
+
+.substance-panel-wrapper{
+	border: 1px dashed #000 !important;
+	margin-top: 10px;
+	background: #e9f7ff;
+	padding: 5px;
+}
+
+/* AZPROMO PAGE STYLES */
+
+img{
+    /*width:100% !important;*/
+    margin-bottom:24px;
+    /*height:auto !important*/
+}
+
+h1, h2, h3, h4, h5 ,h6 {
+	font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -.03em;
+}
+
+p {
+	font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -.03em;
+}
+
+
+.download-block {
+	border: 1px solid #E7E9ED;
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+	align-items: stretch;
+	justify-content: space-between;
+	margin-bottom: 16px;
+}
+
+
+.download-block p {
+  padding: 20px 24px;
+  margin-bottom: 0;
+  width: calc(100% - 120px);
+  color: #273142;
+}
+
+
+.download-block .download-btn {
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FBFBFC;
+  border-left: 1px solid #E7E9ED;
+  color: #848B98;
+  padding: 22px 30px;
+}
+
+
+.border-block {
+    border: 1px solid #E7E9ED;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 24px;
+    margin-bottom: 16px;
+}
+
+.border-block p {
+    margin-bottom: 0;
+}
+
+.border-block span {
+    display: inline-block;
+    color: #C72E36;
+}
+
+.info-bar {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+
+.info-bar-left, .info-bar-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-bar-left {
+    width: 80%;
+}
+
+.info-bar-left h6 {
+    padding: 0 56px;
+}
+
+.info-bar-left .bar {
+    background-color: #E7E9ED;
+}
+
+.info-bar-left .bar, .info-bar-right .bar {
+    height: 32px;
+    width: 100%;
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.info-bar-left .bar:after, .info-bar-right .bar:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 56px;
+    background-color: #C72E36;
+}
+
+.info-bar-right {
+    width: 20%;
+}
+
+.info-bar h6 {
+    color: #273142;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.info-bar-right .bar {
+    background-color: #C72E36;
+}
+
+.info-bar-right .bar:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 56px;
+    background-color: #C72E36;
+}
+
+.info-bar-left .bar:after, .info-bar-right .bar:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 56px;
+    background-color: #C72E36;
+}
+
+.info-bar {
+	border: 1px dotted black;
+}
+
+
+.body-s-reg{
+    font-family: "inter-reg";
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: -.03em;
+}
+
+.border-block span {
+	font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -.03em;
+}
+
+
+
+.leadership-item {
+    border: 1px solid #E7E9ED;
+    margin-bottom: 16px;
+}
+
+.leadership-item-head {
+    padding: 16px 56px 16px 16px;
+}
+
+.leadership-item-head {
+    padding: 24px 56px 16px 24px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.leadership-item-head .icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    margin-right: 16px;
+    background-color: #FBEEEF;
+}
+
+.leadership-item-head .icon-box i {
+    color: #C72E36;
+}
+
+ .leadership-item-head p {
+    margin-bottom: 0;
+    color: #101825;
+    font-family: 'inter-med' !important;
+}
+
+.leadership-item-head .arrow {
+    position: absolute;
+    right: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    background-color: #C9CED6;
+}
+
+.leadership-item-head .arrow i {
+    color: #fff;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.leadership-item-body div {
+    padding: 16px;
+}
+.leadership-item-body div {
+    border-top: 1px solid #E7E9ED;
+    padding: 16px 24px 24px;
+}
+
+
+.leadership-item{
+	border:2px dotted black;
+}
+
+
+.normal-size .h5-med, .normal-size article h5, article .normal-size h5, .normal-size .border-block span, .border-block .normal-size span, .normal-size .math-block {
+    font-family: "inter-med";
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -.03em;
+}
+
+
+.math-block {
+    border: 1px solid #E7E9ED;
+    background-color: #FBFBFC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+    padding: 16px;
+    color: #C72E36;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -16px;
+    margin-left: -16px;
+}
+
+@media (min-width: 767px) {
+    .col-md-4 {
+        flex: 0 0 calc(100% / 12 * 4);
+        max-width: calc(100% / 12 * 4);
+    }
+}
+
+.demand-block {
+    border-radius: 4px;
+    border: 1px solid #E7E9ED;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    color: #273142;
+    margin-bottom: 32px;
+}
+
+.demand-block span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+    background: #f7d6d6;
+    margin-right:8px;
+}
+
+.demand-block span::after{
+    content: 'icon';
+    font-size:8px;
+}
+
+.demand-block span i {
+    color: #C72E36;
+}

@@ -1,0 +1,668 @@
+{
+    "home": {
+        "type": "Page",
+        "name": "Ana səhifə",
+        "view": "page",
+        "pagination_limit": null,
+        "is_pagination": false
+    },
+    "article": {
+        "type": "Article",
+        "name": "Paylaşımlar",
+        "view": "media.articles",
+        "pagination_limit": "6",
+        "is_pagination": true,
+        "labels": {
+            "subtitle": true,
+            "description": true,
+            "icon": true
+        },
+        "simple_items": {
+            "gallery": "Qalereya"
+        }
+    },
+    "content": {
+        "type": "Page",
+        "name": "Kontent",
+        "view": "templates.simple-content",
+        "pagination_limit": null,
+        "is_pagination": false,
+        "labels": {
+            "second_title": true,
+            "description": true,
+            "image": true
+        },
+        "simple_items": {
+            "gallery": "Qalereya"
+        }
+    },
+    "redirect": {
+        "type": "Page",
+        "name": "Redirect",
+        "view": "null",
+        "pagination_limit": null,
+        "is_pagination": false
+    },
+    "structure": {
+        "type": "Page",
+        "name": "Struktur",
+        "view": "templates.structure",
+        "pagination_limit": "9",
+        "is_pagination": true
+    },
+    "cooperation": {
+        "type": "Page",
+        "name": "Əməkdaşlar",
+        "view": "null",
+        "pagination_limit": null,
+        "is_pagination": false,
+        "labels": {
+            "icon": true
+        }
+    },
+    "content-with-icon": {
+        "type": "Page",
+        "name": "Kontent ( İkon ilə )",
+        "view": "templates.simple-content",
+        "pagination_limit": null,
+        "is_pagination": false,
+        "labels": {
+            "second_title": true,
+            "description": true,
+            "image": true,
+            "icon": true
+        }
+    },
+    "calculator": {
+        "type": "Page",
+        "name": "Kalkulator",
+        "view": "templates.calculator",
+        "pagination_limit": null,
+        "is_pagination": false,
+        "labels": {
+            "second_title": true,
+            "description": true,
+            "icon": true
+        }
+    },
+    "guidance": {
+        "type": "Page",
+        "name": "Rəhbərlik",
+        "view": "templates.guidance",
+        "pagination_limit": null,
+        "is_pagination": false
+    },
+    "institutions": {
+        "type": "Page",
+        "name": "Tabelikdə olan qurumlar",
+        "view": "templates.guidance",
+        "pagination_limit": null,
+        "is_pagination": false,
+        "simple_items": {
+            "institutions": "Qurumlar"
+        }
+    },
+    "documents": {
+        "type": "Page",
+        "name": "Sənədlər (daxili)",
+        "view": "templates.documents",
+        "pagination_limit": null,
+        "is_pagination": false,
+        "labels": {
+            "description": true,
+            "image": true
+        },
+        "simple_items": {
+            "documents": "Sənədlər"
+        }
+    },
+    "documents-with-childs": {
+        "type": "Page",
+        "name": "Sənədlər",
+        "view": "templates.documents-with-childs",
+        "pagination_limit": null,
+        "is_pagination": false
+    },
+    "contact": {
+        "type": "Page",
+        "name": "Əlaqə",
+        "view": "templates.contact",
+        "pagination_limit": null,
+        "is_pagination": false,
+        "simple_items": {
+            "contact": "Əlaqə"
+        }
+    },
+    "questions": {
+        "type": "Page",
+        "name": "Suallar",
+        "view": "null",
+        "pagination_limit": null,
+        "is_pagination": false,
+        "simple_items": {
+            "questions": "Suallar"
+        }
+    },
+    "e-apply": {
+        "type": "Page",
+        "name": "Elektron müraciət",
+        "view": "forms.e-apply",
+        "pagination_limit": null,
+        "is_pagination": false,
+        "labels": {
+            "description": true
+        },
+        "simple_items": {
+            "subject": "Mövzu"
+        }
+    },
+    "volunteers": {
+        "type": "Page",
+        "name": "Könüllü proqramı",
+        "view": "forms.volunteers",
+        "pagination_limit": null,
+        "is_pagination": false,
+        "labels": {
+            "description": true
+        }
+    },
+    "sitemap": {
+        "type": "Page",
+        "name": "Sitemap",
+        "view": "templates.sitemap",
+        "pagination_limit": null,
+        "is_pagination": false
+    },
+    "content-with-file": {
+        "type": "Page",
+        "name": "Kontent səhifə (fayl ilə)",
+        "view": "templates.simple-content-with-file",
+        "pagination_limit": null,
+        "is_pagination": false,
+        "labels": {
+            "second_title": true,
+            "description": true,
+            "image": true
+        },
+        "simple_items": {
+            "file": "Fayl"
+        }
+    },
+    "guidance-inner": {
+        "type": "Page",
+        "name": "Rəhbərlik daxili səhifə",
+        "view": "templates.guidance-inner",
+        "pagination_limit": null,
+        "is_pagination": false,
+        "labels": {
+            "subtitle": true,
+            "description": true,
+            "image": true
+        }
+    },
+    "supervisory": {
+        "type": "Page",
+        "name": "Müşahidə şurası",
+        "view": "templates.supervisory",
+        "pagination_limit": null,
+        "is_pagination": false
+    },
+    "questions-all": {
+        "type": "Page",
+        "name": "Bütün suallar",
+        "view": "templates.questions",
+        "pagination_limit": null,
+        "is_pagination": false
+    },
+    "history": {
+        "type": "Page",
+        "name": "Tarix",
+        "view": "templates.history",
+        "pagination_limit": null,
+        "is_pagination": false,
+        "labels": {
+            "image": true
+        },
+        "simple_items": {
+            "gallery": "Qalereya",
+            "history_information": "Məlumat",
+            "history_accordion": "Geniş məlumat",
+            "history_workers": "Fəxri işçilər"
+        }
+    },
+    "metro-lines-general": {
+        "type": "Page",
+        "name": "Xətt Ümumi",
+        "view": "templates.line-general",
+        "pagination_limit": null,
+        "is_pagination": false,
+        "labels": {
+            "description": true,
+            "image": true
+        },
+        "simple_items": {
+            "lines_info": "Xətt Məlumatı"
+        }
+    },
+    "lines-metro": {
+        "type": "Page",
+        "name": "Xəttlər",
+        "view": "templates.lines",
+        "pagination_limit": null,
+        "is_pagination": false,
+        "labels": {
+            "description": true,
+            "image": true
+        },
+        "simple_items": {
+            "lines_info": "Xətt Məlumatı"
+        }
+    },
+    "rules": {
+        "type": "Page",
+        "name": "Qaydalar",
+        "view": "templates.rules",
+        "pagination_limit": null,
+        "is_pagination": false,
+        "labels": {
+            "second_title": true,
+            "description": true
+        }
+    },
+    "balance": {
+        "type": "Page",
+        "name": "Gediş haqqı",
+        "view": "templates.balance",
+        "pagination_limit": null,
+        "is_pagination": false,
+        "labels": {
+            "description": true
+        },
+        "simple_items": {
+            "balance": "Gedişhaqqı Tarixi",
+            "cash-points": "Ödəmə mərkəzləri",
+            "balans2": "Gediş haqqının ödənilməsi"
+        }
+    },
+    "tourists": {
+        "type": "Page",
+        "name": "Turistlər üçün",
+        "view": "templates.tourists",
+        "pagination_limit": null,
+        "is_pagination": false
+    },
+    "partners": {
+        "type": "Page",
+        "name": "Tərəfdaşlarımız",
+        "view": "templates.partners",
+        "pagination_limit": null,
+        "is_pagination": false,
+        "simple_items": {
+            "partners": "Tərəfdaşlarımız"
+        }
+    },
+    "article-list": {
+        "type": "Page",
+        "name": "Paylaşımlar (list formasında)",
+        "view": "media.article-list",
+        "pagination_limit": "9",
+        "is_pagination": true,
+        "labels": {
+            "subtitle": true,
+            "icon": true
+        }
+    },
+    "advertising": {
+        "type": "Page",
+        "name": "Reklam və kommersiya",
+        "view": "templates.advertising",
+        "pagination_limit": null,
+        "is_pagination": false,
+        "labels": {
+            "description": true
+        },
+        "simple_items": {
+            "advertising": "Reklam və kommersiya qaydaları"
+        }
+    },
+    "e-application": {
+        "type": "Page",
+        "name": "Elektron müraciət (Əməkdaşlıq)",
+        "view": "forms.e-application",
+        "pagination_limit": null,
+        "is_pagination": false,
+        "labels": {
+            "description": true
+        },
+        "simple_items": {
+            "subject": "Mövzu"
+        }
+    },
+    "memory-book": {
+        "type": "Page",
+        "name": "Yaddaş kitabçası",
+        "view": "templates.memory-book",
+        "pagination_limit": null,
+        "is_pagination": false,
+        "labels": {
+            "image": true
+        },
+        "simple_items": {
+            "file": "Fayl",
+            "accordions": "Akkordeon"
+        }
+    },
+    "accessible-subway": {
+        "type": "Page",
+        "name": "Əlçatan metro",
+        "view": "templates.accessible-subway",
+        "pagination_limit": null,
+        "is_pagination": false,
+        "labels": {
+            "description": true,
+            "image": true
+        },
+        "simple_items": {
+            "file": "Fayl",
+            "accordions": "Akkordeon"
+        }
+    },
+    "information": {
+        "type": "Page",
+        "name": "Informasiya",
+        "view": "templates.information",
+        "pagination_limit": null,
+        "is_pagination": false
+    },
+    "public-relations": {
+        "type": "Page",
+        "name": "Mətbuat və ictimaiyyətlə əlaqələr",
+        "view": "templates.public-relations",
+        "pagination_limit": null,
+        "is_pagination": false,
+        "labels": {
+            "subtitle": true
+        },
+        "simple_items": {
+            "public-relations": "Mətbuat"
+        }
+    },
+    "contact-e-apply": {
+        "type": "Page",
+        "name": "Əlaqə ( Elektron müraciət )",
+        "view": "forms.contact-e-apply",
+        "pagination_limit": null,
+        "is_pagination": false,
+        "simple_items": {
+            "subject": "Mövzu"
+        }
+    },
+    "citizen-reception": {
+        "type": "Page",
+        "name": "Vətəndaş qəbulu",
+        "view": "templates.citizen-reception",
+        "pagination_limit": null,
+        "is_pagination": false,
+        "labels": {
+            "image": true
+        },
+        "simple_items": {
+            "citizen-reception": "Vətəndaş qəbulu"
+        }
+    },
+    "train-times": {
+        "type": "Page",
+        "name": "Depo qatarları",
+        "view": "templates.train-times",
+        "pagination_limit": null,
+        "is_pagination": false,
+        "simple_items": {
+            "busy-hours": "Gur saatlar",
+            "work-time": "İş vaxtı",
+            "to-bakmil": "Bakmilə doğru",
+            "from-bakmil": "Bakmilin əksinə"
+        }
+    },
+    "metro-gallery": {
+        "type": "Page",
+        "name": "MetroGallery",
+        "view": "templates.metro-gallery",
+        "pagination_limit": "9",
+        "is_pagination": true,
+        "labels": {
+            "second_title": true,
+            "subtitle": true,
+            "description": true,
+            "image": true,
+            "icon": true,
+            "link": true
+        },
+        "simple_items": {
+            "gallery": "Qalereya"
+        }
+    },
+    "structure-inner": {
+        "type": "Page",
+        "name": "Struktur daxili səhifə",
+        "view": "templates.structure-inner",
+        "pagination_limit": null,
+        "is_pagination": false,
+        "labels": {
+            "description": true
+        },
+        "simple_items": {
+            "file": "Fayl",
+            "structure-areas": "Sahələr",
+            "structure-actions": "Fəaliyyət",
+            "structure-guidance": "Rəhbərlik"
+        }
+    },
+    "multimedia": {
+        "type": "Page",
+        "name": "Multimedia",
+        "view": "templates.multimedia",
+        "pagination_limit": null,
+        "is_pagination": false,
+        "labels": {
+            "subtitle": true,
+            "icon": true
+        }
+    },
+    "vacancy": {
+        "type": "Page",
+        "name": "Vakansiya (forum)",
+        "view": "templates.vacancy",
+        "pagination_limit": null,
+        "is_pagination": false,
+        "labels": {
+            "description": true
+        }
+    },
+    "positions": {
+        "type": "Page",
+        "name": "Peşələr və vəzifələr",
+        "view": "career.positions",
+        "pagination_limit": "9",
+        "is_pagination": true
+    },
+    "vacancies": {
+        "type": "Page",
+        "name": "Ümumi Vakansiyalar",
+        "view": "career.vacancies",
+        "pagination_limit": "9",
+        "is_pagination": true
+    },
+    "umumi-sorgular": {
+        "type": "SurveySubject",
+        "name": "Sorğular",
+        "view": "media.sorgu",
+        "pagination_limit": "6",
+        "is_pagination": true
+    },
+    "howtouse": {
+        "type": "Page",
+        "name": "howtouse",
+        "view": "howtouse.item",
+        "pagination_limit": null,
+        "is_pagination": false
+    },
+    "employee": {
+        "type": "Page",
+        "name": "İşə qəbul qaydaları",
+        "view": "howtouse.item2",
+        "pagination_limit": null,
+        "is_pagination": false,
+        "labels": {
+            "description": true
+        },
+        "simple_items": {
+            "İşə qəbul qaydaları": "İşə qəbul qaydaları"
+        }
+    },
+    "baki-metropoliteni-55": {
+        "type": "Page",
+        "name": "Bakı metropoliteni-55",
+        "view": "Bakı metropoliteni-55",
+        "pagination_limit": "9",
+        "is_pagination": true,
+        "labels": {
+            "second_title": true,
+            "subtitle": true,
+            "description": true,
+            "image": true,
+            "icon": true,
+            "link": true
+        },
+        "simple_items": {
+            "Xəbər tipli": "Xəbər tipli"
+        }
+    },
+    "tarix": {
+        "type": "Page",
+        "name": "TARIX",
+        "view": "templates.history",
+        "pagination_limit": null,
+        "is_pagination": false
+    },
+    "limanin-inkisafi-yol-xeritesi": {
+        "type": "Page",
+        "name": "LIMANIN_INKIŞAFI_YOL_XƏRITƏSI",
+        "view": "templates.liman_inkisaf_yol_xeritesi",
+        "pagination_limit": null,
+        "is_pagination": false,
+        "labels": {
+            "description": true,
+            "image": true
+        },
+        "simple_items": {
+            "BIRINCI_MERHELE": "BIRINCI_MERHELE",
+            "IKINCI_MERHELE": "IKINCI_MERHELE",
+            "BIRINCI_MERHELE_TEXT": "BIRINCI_MERHELE_TEXT",
+            "IKINCI_MERHELE_TEXT": "IKINCI_MERHELE_TEXT"
+        }
+    },
+    "mission": {
+        "type": "Page",
+        "name": "MISSION",
+        "view": "templates.mission",
+        "pagination_limit": null,
+        "is_pagination": false,
+        "simple_items": {
+            "MISSIONS": "MISSIONS"
+        }
+    },
+    "idare-heyeti": {
+        "type": "Page",
+        "name": "İDARƏ_HEYƏTI",
+        "view": "templates.idare",
+        "pagination_limit": null,
+        "is_pagination": false
+    },
+    "idare-heyeti-inner": {
+        "type": "Page",
+        "name": "İDARƏ_HEYƏTI_INNER",
+        "view": "templates.idare_inner",
+        "pagination_limit": null,
+        "is_pagination": false,
+        "labels": {
+            "second_title": true,
+            "subtitle": true,
+            "description": true,
+            "image": true
+        }
+    },
+    "illik-raport": {
+        "type": "Page",
+        "name": "ILLIK_RAPORT",
+        "view": "templates.illik",
+        "pagination_limit": null,
+        "is_pagination": false,
+        "labels": {
+            "description": true
+        },
+        "simple_items": {
+            "ILLIK_RAPORT": "ILLIK_RAPORT"
+        }
+    },
+    "sertifikatlar": {
+        "type": "Page",
+        "name": "SERTIFIKATLAR",
+        "view": "templates.sertifikatlar",
+        "pagination_limit": null,
+        "is_pagination": false,
+        "labels": {
+            "description": true
+        },
+        "simple_items": {
+            "SERTIFIKATLAR": "SERTIFIKATLAR"
+        }
+    },
+    "tecrube-proqrami": {
+        "type": "Page",
+        "name": "TƏCRÜBƏ_PROQRAMI",
+        "view": "templates.karyera",
+        "pagination_limit": null,
+        "is_pagination": false
+    },
+    "arxiv": {
+        "type": "Page",
+        "name": "arxiv",
+        "view": "templates.arxiv",
+        "pagination_limit": null,
+        "is_pagination": false
+    },
+    "qalereya": {
+        "type": "Page",
+        "name": "Qalereya",
+        "view": "templates.photogallery",
+        "pagination_limit": null,
+        "is_pagination": false
+    },
+    "sosial": {
+        "type": "Page",
+        "name": "sosial",
+        "view": "templates.sosial",
+        "pagination_limit": null,
+        "is_pagination": false,
+        "simple_items": {
+            "sosial": "sosial"
+        }
+    },
+    "another-site-url": {
+        "type": "Page",
+        "name": "another_site_url",
+        "view": "another_site_url",
+        "pagination_limit": null,
+        "is_pagination": false,
+        "labels": {
+            "second_title": true
+        }
+    },
+    "idare-heyeti-with-director": {
+        "type": "Page",
+        "name": "IDARƏ_HEYƏTİ_WITH_DIRECTOR",
+        "view": "templates.IDARƏ_HEYƏTİ_WITH_DIRECTOR",
+        "pagination_limit": null,
+        "is_pagination": false
+    }
+}

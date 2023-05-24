@@ -1,0 +1,141 @@
+@page {
+    size: A4;
+    margin: 40px;
+}
+
+.no-scroll {
+    position: relative;
+    overflow: hidden;
+    height: auto;
+}
+
+/*.homecontentwrapper*/
+
+.assigned-filter-section,
+.heightZero,
+.ttl-mbl {
+    display: none !important;
+}
+
+.fist-div {
+    float: none !important;
+    display: inline !important;
+    clear: both !important;
+}
+
+.module-landing-page .product-item-title span.icon-chevron-right,
+.module-landing-page .font18links.font40 span,
+a.sec-ttl-link span.icon-chevron-right,
+.central-slider .slick-arrow,
+.central-slider .slick-dots,
+.stickyNavWrap,
+.insights-filter-wrap,
+#loadmore,
+.slick-dots,
+.slick-arrow {
+    display: none !important;
+}
+
+img,
+.inoStoryBox.disover-item,
+.slick-list,
+.fw-intro-section,
+.new-country-site-section,
+.slick-slide {
+    page-break-before: avoid;
+    page-break-after: avoid;
+    page-break-inside: avoid;
+}
+
+.disover-item {
+    float: none !important;
+    margin: 0 auto !important;
+}
+
+.inoBoxOverlay {
+    position: relative;
+    left: auto;
+    right: auto;
+    color: #5b5b5b;
+}
+
+.inoBoxOverlay p {
+    display: block;
+}
+
+body#press-releases.no-scroll {
+    overflow: visible;
+    position: relative;
+    top: 0;
+    height: auto;
+}
+
+body#press-releases .story-popup-wrapper {
+    position: relative;
+    border-top: 2px gray solid;
+    display: block;
+}
+
+body#press-releases .scrollable-container {
+    overflow: hidden;
+    height: auto !important;
+    margin-top: 0;
+}
+
+body#press-releases #close-popup,
+.bottom-close-wrapper,
+.story-popup-wrapper:after {
+    display: none;
+}
+
+body#press-releases .close-popup-wrapper,
+.header-outer-dummy,
+.white-overlay,
+.hide-content,
+.assigned-filter-section {
+    display: none;
+}
+
+body#press-releases .story-popup-wrapper.open {
+    margin-top: 0px;
+}
+
+body#press-releases.no-scroll #MainWrapper {
+    opacity: 1;
+    padding: 0;
+}
+
+body#press-releases.no-scroll #MainWrapper #insights-content-container {
+    opacity: 0;
+    display: none;
+}
+
+body#press-releases.no-scroll:after {
+    display: none;
+    background: #fff;
+}
+
+body#press-releases.no-scroll {
+    background: none;
+}
+
+.home-content-fw-inner {
+    margin: 0 auto !important;
+    padding: 0 !important;
+}
+
+tr,
+p,
+img,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    page-break-inside: avoid;
+}
+
+.story-popup-wrapper .section img {
+    display: none;
+}

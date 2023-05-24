@@ -1,0 +1,294 @@
+{
+    "gallery": {
+        "name": "Qalereya",
+        "labels": {
+            "images": "Şəkil(lər)"
+        }
+    },
+    "file": {
+        "name": "Fayl",
+        "labels": {
+            "title": "Başlıq",
+            "file": "Fayl"
+        }
+    },
+    "links": {
+        "name": "Üst linklər",
+        "labels": {
+            "title": "Başlıq",
+            "link": "Link"
+        }
+    },
+    "documents": {
+        "name": "Sənədlər",
+        "labels": {
+            "title": "Başlıq",
+            "text": "Link",
+            "text_field": "Mətn",
+            "date": "Tarix"
+        }
+    },
+    "questions": {
+        "name": "Suallar",
+        "labels": {
+            "title": "Sual",
+            "medium_text_1": "Cavab"
+        }
+    },
+    "history_information": {
+        "name": "Məlumat",
+        "labels": {
+            "title": "Başlıq",
+            "medium_text_1": "Qeyd"
+        }
+    },
+    "history_accordion": {
+        "name": "Geniş məlumat",
+        "labels": {
+            "title": "Başlıq",
+            "medium_text_1": "Mətn"
+        }
+    },
+    "history_workers": {
+        "name": "Fəxri işçilər",
+        "labels": {
+            "title": "Ad Soyad",
+            "subtitle": "Vəzifəsi",
+            "text_field": "Haqqında",
+            "image": "Şəkil"
+        }
+    },
+    "lines_info": {
+        "name": "Xətt Məlumatı",
+        "labels": {
+            "title": "Title Başlıq",
+            "medium_text_1": "Title Dəyəri"
+        }
+    },
+    "balance": {
+        "name": "Balans haqqında",
+        "labels": {
+            "title": "Başlıq",
+            "medium_text_3": "Gediş haqqının ödənilməsi",
+            "link": "Onlayn ödəniş",
+            "A": "Bir gediş haqqı"
+        }
+    },
+    "cash-points": {
+        "name": "Ödəmə mərkəzləri",
+        "labels": {
+            "title": "Adı",
+            "image": "İkon"
+        }
+    },
+    "monument": {
+        "name": "Qədimi abidələr",
+        "labels": {
+            "title": "Başlıq",
+            "subtitle": "Yaxın stansiya",
+            "medium_text_1": "Ünvanı",
+            "medium_text_2": "Haqqında",
+            "image": "Şəkil"
+        }
+    },
+    "museums": {
+        "name": "Muzey və teatlar",
+        "labels": {
+            "title": "Başlıq",
+            "subtitle": "Yaxın stansiya",
+            "medium_text_1": "Ünvanı",
+            "medium_text_2": "Haqqında",
+            "image": "Şəkil"
+        }
+    },
+    "mosques": {
+        "name": "Məscidlər",
+        "labels": {
+            "title": "Başlıq",
+            "subtitle": "Yaxın stansiya",
+            "medium_text_1": "Ünvanı",
+            "medium_text_2": "Haqqında",
+            "image": "Şəkil"
+        }
+    },
+    "parks": {
+        "name": "Parklar",
+        "labels": {
+            "title": "Başlıq",
+            "subtitle": "Yaxın stansiya",
+            "medium_text_1": "Ünvanı",
+            "medium_text_2": "Haqqında",
+            "image": "Şəkil"
+        }
+    },
+    "sport-arena": {
+        "name": "İdman obyektləri",
+        "labels": {
+            "title": "Başlıq",
+            "subtitle": "Yaxın stansiya",
+            "medium_text_1": "Ünvanı",
+            "medium_text_2": "Haqqında",
+            "image": "Şəkil"
+        }
+    },
+    "partners": {
+        "name": "Tərəfdaşlarımız",
+        "labels": {
+            "title": "Başlıq",
+            "text": "Link",
+            "image": "İkon"
+        }
+    },
+    "advertising": {
+        "name": "Reklam və kommersiya qaydaları",
+        "labels": {
+            "title": "Başlıq",
+            "medium_text_1": "Mətn",
+            "image": "Şəkil"
+        }
+    },
+    "accordions": {
+        "name": "Akkordeon",
+        "labels": {
+            "title": "Başlıq",
+            "text_field": "Mətn"
+        }
+    },
+    "contact": {
+        "name": "Əlaqə",
+        "labels": {
+            "title": "Ünvan",
+            "text": "Əlaqə\/Faks",
+            "medium_text_1": "Korona virusla əlaqədar  qaynar xətt",
+            "medium_text_2": "Map"
+        }
+    },
+    "public-relations": {
+        "name": "Mətbuat",
+        "labels": {
+            "title": "Ad Soyad",
+            "subtitle": "Vəzifə",
+            "text_field": "Haqqında",
+            "image": "Şəkil"
+        }
+    },
+    "subject": {
+        "name": "Mövzu",
+        "labels": {
+            "title": "Başlıq"
+        }
+    },
+    "citizen-reception": {
+        "name": "Vətəndaş qəbulu",
+        "labels": {
+            "title": "Ad Soyad",
+            "subtitle": "Vəzifə",
+            "text": "Qəbul saatları",
+            "medium_text_1": "Qəbul günləri"
+        }
+    },
+    "bottom-links": {
+        "name": "Alt linklər",
+        "labels": {
+            "title": "Başlıq",
+            "link": "Link",
+            "image": "Logo"
+        }
+    },
+    "metro-history-home": {
+        "name": "Metro tarixi",
+        "labels": {
+            "title": "Başlıq",
+            "subtitle": "Qısa mətn",
+            "link": "Link",
+            "image": "Şəkil"
+        }
+    },
+    "useful-links": {
+        "name": "Faydalı linkləf",
+        "labels": {
+            "title": "Başlıq",
+            "text": "Link"
+        }
+    },
+    "banners": {
+        "name": "Banner",
+        "labels": {
+            "title": "Başlıq",
+            "medium_text_1": "Qısa məlumat",
+            "medium_text_2": "Keçid sözü",
+            "link": "Link"
+        }
+    },
+    "busy-hours": {
+        "name": "Gur saatlar",
+        "labels": {
+            "title": "Vaxt"
+        }
+    },
+    "work-time": {
+        "name": "İş vaxtı",
+        "labels": {
+            "title": "Vaxt"
+        }
+    },
+    "to-bakmil": {
+        "name": "Bakmilə doğru",
+        "labels": {
+            "title": "Stansiya",
+            "file": "Cədvəl faylı"
+        }
+    },
+    "from-bakmil": {
+        "name": "Bakmilin əksinə",
+        "labels": {
+            "title": "Stansiya",
+            "file": "Cədvəl faylı"
+        }
+    },
+    "structure-areas": {
+        "name": "Sahələr",
+        "labels": {
+            "title": "Başlıq",
+            "link": "Link"
+        }
+    },
+    "structure-actions": {
+        "name": "Fəaliyyət",
+        "labels": {
+            "title": "Başlıq",
+            "text_field": "Mətn"
+        }
+    },
+    "structure-guidance": {
+        "name": "Rəhbərlik",
+        "labels": {
+            "title": "Ad Soyad",
+            "subtitle": "Qısa məlumat",
+            "image": "Şəkil"
+        }
+    },
+    "metro-schema": {
+        "name": "Metro Sxemi",
+        "labels": {
+            "title": "Kecid",
+            "link": "Link"
+        }
+    },
+    "İşə qəbul qaydaları": {
+        "name": "İşə qəbul qaydaları",
+        "labels": {
+            "title": "Başlıq",
+            "medium_text_1": "Kontent",
+            "image": "Şəkil"
+        }
+    },
+    "balans2": {
+        "name": "Gediş haqqının ödənilməsi",
+        "labels": {
+            "title": "Başlıq",
+            "link": "Url",
+            "image": "Şəkil"
+        }
+    }
+}

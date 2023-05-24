@@ -1,0 +1,788 @@
+/*.flicker-module-section .fw-sld-wrapper { height:auto !important; }*/
+
+a.sec-ttl-link:hover,
+a.sec-ttl-link:hover:after {
+    color: #006dff;
+}
+
+.module-heading .mixbold {
+    /*color:#004990;*/
+    color: #1e3643
+}
+
+.discover-items-wrapper {
+    max-width: 2000px;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+
+.discover-landing-page .discover-items-wrapper {
+    padding-top: 0;
+}
+
+.pad-noneI {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.inoStoryBox>a {
+    overflow: hidden;
+    background: url("/~/media/Images/R/Rolls-Royce/innovation/css/landing-gradient-bg.png") no-repeat left bottom;
+    display: block;
+    background-size: contain;
+}
+
+.inoStoryBox img {
+    position: relative;
+    display: block;
+    width: 100%;
+    /*z-index: -1;*/
+}
+
+.inoBoxOverlay {
+    bottom: 0;
+    color: #fff;
+    left: 0;
+    padding: 0 39px 10px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    z-index: 9;
+}
+
+.inoBoxOverlay .inoBoxOverlay-wrapper {
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.inoBoxOverlay .inoBoxOverlay-wrapper .inoBoxOverlay-wrapper-text {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inoBoxOverlay p.iboxTitle {
+    line-height: 1.250em;
+    padding-bottom: 20px;
+    display: block;
+}
+
+.inoBoxOverlay p {
+    display: none;
+}
+
+.inoStoryBox {
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+#MainWrapper.module-item-page {
+    background-color: #fff;
+}
+
+#MainWrapper.module-item-page .section.sections-wrap {
+    margin-bottom: 20px;
+}
+
+.module-item-page .discover-items-wrapper {
+    padding-bottom: 45px;
+}
+
+.ie9 .inoBoxOverlay,
+.msie .inoBoxOverlay {
+    filter: none !important;
+}
+
+.inoStoryBox:hover .inoBoxOverlay {
+    width: 100%;
+    padding-top: 19.5%;
+    top: 0;
+    padding-top: 19.5%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0.65+100 */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjY1Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC42NSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#a6000000', GradientType=1);
+    /* IE6-8 */
+}
+
+.inoStoryBox:hover .inoBoxOverlay p {
+    display: block;
+}
+
+a.sec-ttl-link {
+    text-decoration: none;
+}
+
+.module-center-heading {
+    text-align: center;
+}
+
+a.sec-ttl-link span.icon-chevron-right {
+    /*display: inline-block; top: 3px; color: #00afd5;font-size: 0.7em; margin-left: -2px;  position: relative; */
+}
+
+.module-heading {
+    /* padding-top:90px;*/
+}
+
+.section.sections-wrap.fist-div .module-heading {
+    padding-top: 0;
+}
+
+.module-heading .fw-intro-text,
+.module-heading .fw-para-text {
+    width: 76%;
+    margin: 0 auto;
+    padding-top: 26px;
+}
+
+.fw-discover .module-heading .fw-intro-text,
+.fw-product-finder .module-heading .fw-intro-text {
+    width: 100%;
+}
+
+.fw-intro-section .sec-ttl {
+    color: #004990;
+}
+
+.fw-ship-design {
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+#product-finder {
+    /*padding-bottom: 84px;*/
+}
+
+.products-wrapper {
+    max-width: 840px;
+    margin: 0 auto;
+    padding-top: 57px;
+}
+
+/*.products-wrapper .slick-list { padding-bottom:37px; }*/
+
+.fw-related-products .products-wrapper {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.fw-related-products .products-wrapper.disabled-slick-space {
+    padding-bottom: 20px;
+}
+
+.product-item {
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+    /*padding-bottom: 23px;*/
+}
+
+.product-item-inner {
+    padding: 0 10%;
+}
+
+.product-item-inner a {
+    display: block;
+    color: #5b5b5b;
+    text-decoration: none;
+}
+
+.product-item-image {
+    padding-bottom: 15px;
+}
+
+.product-item-image img {
+    width: 100%;
+    height: auto;
+    transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    /*-webkit-backface-visibility: hidden; -webkit-transform-style: preserve-3d;*/
+}
+
+.product-item-top {
+    min-height: 125px;
+}
+
+.product-item-top,
+.product-item-bottom {
+    text-align: center;
+}
+
+.product-item-title,
+.product-item-title.font18 {
+    text-transform: uppercase;
+    color: #10069f;
+    -webkit-transition: all 0.25s ease;
+    -ms-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    -webkit-backface-visibility: hidden;
+    font-size: 1.286em;
+    line-height: 1.56;
+}
+
+.fw-related-products .slick-track {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.central-slider .slick-arrow.slick-disabled {
+    color: rgba(177, 193, 200, 0.5) !important;
+    cursor: default;
+}
+
+/*.central-slider .slick-arrow { border: medium none; color: #b1c1c8; cursor: pointer; font-size: 3em; font-weight: 400; height: 50px; position: absolute; bottom: 0; width: 50px; z-index: 2; transition: all 0.3s ease 0s; -webkit-transition: all 0.3s ease 0s; -moz-transition: all 0.3s ease 0s; -ms-transition: all 0.3s ease 0s; -o-transition: all 0.3s ease 0s; }*/
+
+/*.central-slider .slick-dots { margin: 0 auto; position: relative; top:-11px; text-align: center; }
+body.internetexplorer11 .central-slider .slick-dots, body.ie9 .fw-sld-wrapper .slick-dots { bottom: -56px; }*/
+
+.product-item-inner a:hover .product-item-image img {
+    transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    -o-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    -moz-transform: scale(1.0);
+}
+
+/*.central-slider .slick-arrow:hover { color: #4e5d65; }
+.central-slider .slick-dots li { display: inline-block; margin: 0 5px; }
+.central-slider .slick-dots li button { background: #b2b2b2; border: medium none; height: 7px; width: 7px; border-radius: 50%; text-indent: -9999px; transition: all 0.3s ease 0s; -webkit-transition: all 0.3s ease 0s; -moz-transition: all 0.3s ease 0s; -ms-transition: all 0.3s ease 0s; -o-transition: all 0.3s ease 0s; }
+.central-slider .slick-dots li:hover button, .central-slider .slick-dots li.slick-active button { background: #009ec5; }
+.product-item-title span.icon-chevron-right { font-size: 0.9em; color: #00afd5; top: 2px; position: relative; }*/
+
+.module-full-width-text .fw-intro-three-col {
+    max-width: 80%;
+    float: left;
+}
+
+/*--  Ship design module  --*/
+
+/*.ship-design-module-section .prod-container { padding-bottom: 69px; }*/
+
+.ship-design-module-section .product-item {
+    width: 24.5%;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 26px;
+    padding-bottom: 0;
+}
+
+.ship-design-module-section .product-item-inner {
+    padding: 0 9%;
+}
+
+.ship-design-module-section .product-item-image {
+    min-height: 143px;
+    padding-bottom: 15px;
+}
+
+.ship-design-module-section .module-heading .fw-intro-text {
+    padding-top: 26px;
+}
+
+.ship-design-module-section .fw-intro-section {
+    max-width: 1404px;
+}
+
+.ship-design-module-section .product-item:first-child .product-item-inner {
+    padding-left: 0;
+}
+
+.ship-design-module-section .product-item:last-child .product-item-inner {
+    padding-right: 0;
+}
+
+.ship-design-module-section .prod-container {
+    padding-top: 20px;
+}
+
+/*--  Contacts module  --*/
+
+#module-contacts .img-cnt-on-img-content .font18links.font40 {
+    color: #004990;
+}
+
+#module-contacts .img-cnt-on-img-content .font18links.font40:hover {
+    color: #1cafd3;
+}
+
+#module-contacts .img-sec-subttl {
+    color: #4e5d65;
+}
+
+/*---  Discover landing   ---*/
+
+.disover-item {
+    float: left;
+    position: relative;
+    width: 25%;
+    height: auto;
+}
+
+.hsp-main.disover-item:not(.hsp-news):after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0);
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(0, 0, 0, 0.6)));
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000', GradientType=0);
+}
+
+.ss-discover-item-page .fw-intro-section {
+    padding-bottom: 45px;
+}
+
+.differpagination .disover-item {
+    font-size: 0.875rem;
+}
+
+.disover-item>a:hover {
+    box-shadow: 0 64px 64px 0 rgba(0, 0, 0, 0.1), 0 32px 32px 0 rgba(0, 0, 0, 0.1), 0 16px 16px 0 rgba(0, 0, 0, 0.1), 0 8px 8px 0 rgba(0, 0, 0, 0.05), 0 4px 4px 0 rgba(0, 0, 0, 0.05), 0 2px 2px 0 rgba(0, 0, 0, 0.05);
+    -ms-box-shadow: 0 64px 64px 0 rgba(0, 0, 0, 0.1), 0 32px 32px 0 rgba(0, 0, 0, 0.1), 0 16px 16px 0 rgba(0, 0, 0, 0.1), 0 8px 8px 0 rgba(0, 0, 0, 0.05), 0 4px 4px 0 rgba(0, 0, 0, 0.05), 0 2px 2px 0 rgba(0, 0, 0, 0.05);
+    -o-box-shadow: 0 64px 64px 0 rgba(0, 0, 0, 0.1), 0 32px 32px 0 rgba(0, 0, 0, 0.1), 0 16px 16px 0 rgba(0, 0, 0, 0.1), 0 8px 8px 0 rgba(0, 0, 0, 0.05), 0 4px 4px 0 rgba(0, 0, 0, 0.05), 0 2px 2px 0 rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0 64px 64px 0 rgba(0, 0, 0, 0.1), 0 32px 32px 0 rgba(0, 0, 0, 0.1), 0 16px 16px 0 rgba(0, 0, 0, 0.1), 0 8px 8px 0 rgba(0, 0, 0, 0.05), 0 4px 4px 0 rgba(0, 0, 0, 0.05), 0 2px 2px 0 rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 64px 64px 0 rgba(0, 0, 0, 0.1), 0 32px 32px 0 rgba(0, 0, 0, 0.1), 0 16px 16px 0 rgba(0, 0, 0, 0.1), 0 8px 8px 0 rgba(0, 0, 0, 0.05), 0 4px 4px 0 rgba(0, 0, 0, 0.05), 0 2px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.disover-item a img {
+    display: block;
+    height: auto;
+    width: 100%;
+    transition: transform 0.3s ease 0s;
+    -ms-transition: transform 0.3s ease 0s;
+    -o-transition: transform 0.3s ease 0s;
+    -webkit-transition: transform 0.3s ease 0s;
+    -moz-transition: transform 0.3s ease 0s;
+    /*-webkit-backface-visibility: hidden; -webkit-transform-style: preserve-3d;*/
+}
+
+.disover-item:hover a img {
+    transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+}
+
+.disover-item a:before {
+    z-index: 8;
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0.3) 55%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0.3) 55%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0.3) 55%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000', GradientType=0);
+    /* IE6-9 */
+    bottom: 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+body.ie-9 .disover-item a:before {
+    filter: none;
+}
+
+/*--  Image/Video content module  --*/
+
+.vid-img-module-section .tab-content-left h2 {
+    padding-bottom: 27px;
+}
+
+.fw-vid-img-module-section .vid-img-desc {
+    width: 87%;
+}
+
+/*--  Testimonial module  --*/
+
+.testimonial-left-block {
+    float: left;
+    width: 39%;
+}
+
+.testimonial-left-block {
+    /*margin-bottom:14px;*/
+}
+
+.testimonial-right-block {
+    float: left;
+    width: 44%;
+    margin-left: 8%;
+}
+
+.author-quote {
+    margin-bottom: 6px;
+}
+
+.author-img {
+    float: left;
+    margin-right: 24px;
+}
+
+.module-tesimonial h2 {
+    padding-bottom: 27px;
+    color: #10069f;
+}
+
+.module-tesimonial .author-name {
+    margin: 27px 0 0 0;
+    color: #004990;
+}
+
+.module-tesimonial .author-designation {
+    margin-top: -2px;
+}
+
+.video-img-on-left .vid-img-ttl,
+.video-img-on-left .vid-img-desc {
+    padding-left: 36%;
+}
+
+#fwContentWrapper.video-img-on-left .tabbed-vid-img-wrapper {
+    float: left;
+    margin-left: 0;
+    margin-right: 97px;
+}
+
+#fwContentWrapper.video-img-on-left.no-float .tabbed-vid-img-wrapper {
+    float: none;
+}
+
+.discover-landing-page #insights-landing #loadmore {
+    margin-top: 40px;
+}
+
+.discover-landing-page .insights-filter-title h2 {
+    display: none;
+}
+
+.product-module-section {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+body.ie10 .fw-single-img-sld .fw-sld-wrapper .slick-dots,
+body.internetexplorer11 .fw-single-img-sld .fw-sld-wrapper .slick-dots,
+body.ie9 .fw-sld-wrapper .slick-dots {
+    bottom: 28px;
+}
+
+/*body.ie10 .central-slider.products-wrapper .slick-dots, body.internetexplorer11 .central-slider.products-wrapper .slick-dots, body.ie9 .central-slider.products-wrapper .slick-dots { bottom:auto; top:-19px; }*/
+
+.discover-item-page .fw-intro-section~.fw-intro-section.margin-top-zero {
+    margin-top: 34px;
+}
+
+.fw-testimonial #module-testimonial {
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+/*---   NON JS   ---*/
+
+.nojs .pagination-loadmore.insights-pagination {
+    position: relative;
+}
+
+.nojs .pagination-loadmore.insights-pagination ul li {
+    display: inline-block;
+}
+
+.nojs .pagination-loadmore.insights-pagination ul li.lastPage a,
+.nojs .pagination-loadmore.insights-pagination ul li.next a {
+    background: none;
+    display: inline;
+}
+
+.nojs .pagination-loadmore.insights-pagination ul li.lastPage a::after {
+    content: ">>";
+}
+
+.nojs .pagination-loadmore.insights-pagination ul li.next a::after {
+    content: ">";
+}
+
+.tabbed-vid-img-wrapper .ttl-mbl {
+    display: none;
+}
+
+/*--  Template specific module spacing styles  --*/
+
+.marine-landing-page .section.sections-wrap .new-country-site-section.fw-ship-design {
+    margin-top: 91px;
+}
+
+.marine-landing-page .section.sections-wrap .new-country-site-section.fw-ship-design.add-bottom-margin {
+    margin-bottom: 95px;
+}
+
+.marine-landing-page .section.sections-wrap .new-country-site-section.fw-img-cnt-section {
+    margin-top: 73px;
+}
+
+.marine-landing-page .section.sections-wrap #module-contacts.new-country-site-section.fw-img-cnt-section {
+    margin-top: 95px;
+}
+
+.marine-landing-page .section.sections-wrap .new-country-site-section.fw-img-cnt-section.margin-top-zero {
+    margin-top: 0;
+}
+
+.marine-landing-page .section.sections-wrap #module-contacts.new-country-site-section.fw-img-cnt-section.margin-top-zero {
+    margin-top: 0;
+}
+
+body#discover-zumwalt .discover-item-page .section.sections-wrap .new-country-site-section.fw-flickr {
+    margin-top: 73px;
+}
+
+.discover-item-page .section.sections-wrap .new-country-site-section.fw-single-img-sld {
+    margin-top: 69px;
+}
+
+.discover-item-page .section.sections-wrap .new-country-site-section.fw-stats-section {
+    margin-top: 61px;
+}
+
+.discover-item-page #country-content-container #fwContentWrapper .fw-tabbed-wrap-inner {
+    margin-top: 0;
+}
+
+.discover-item-page .section.sections-wrap .fw-testimonial.new-country-site-section {
+    margin-top: 53px;
+}
+
+.discover-item-page .section.sections-wrap .fw-downloads-sld.new-country-site-section {
+    margin-top: 63px;
+    padding-bottom: 33px;
+}
+
+.discover-item-page .section.sections-wrap .fw-contact-cards-sld.new-country-site-section {
+    margin-top: 93px;
+}
+
+.discover-item-page .section.sections-wrap .fw-related-products.new-country-site-section {
+    margin-top: 72px;
+    padding-bottom: 73px;
+}
+
+.discover-item-page .section.sections-wrap .fw-module-insights-highlight-section.new-country-site-section {
+    margin-top: 64px;
+}
+
+.ip3-discover .new-video-fw h2.mixbold {
+    /*float:left;*/
+    width: 100%;
+}
+
+/* Marine Contact page 295705 */
+
+body#contacts.ip3-products-and-services.ip3-marine .homecontentwrapper .home-banner-fw {
+    display: none;
+}
+
+body#contacts.ip3-products-and-services.ip3-marine #bold-intro-text .font35 {
+    font-size: 4.292em;
+    line-height: 1em;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'TheMix-Black', Arial;
+}
+
+body#contacts.ip3-products-and-services.ip3-marine #intro2 .font35 {
+    font-size: 2.857em;
+    line-height: 1.2;
+}
+
+body#contacts.ip3-products-and-services.ip3-marine #module-downloads .fw-dwld-sld-ttl {
+    font-size: 2.857em;
+    line-height: 1.2;
+}
+
+@media all and (max-width: 1399px) {
+    body#contacts.ip3-products-and-services.ip3-marine #bold-intro-text .font35 {
+        font-size: 3.571em;
+    }
+    body#contacts.ip3-products-and-services.ip3-marine #intro2 .font35 {
+        font-size: 2.571em;
+    }
+    body#contacts.ip3-products-and-services.ip3-marine #module-downloads .fw-dwld-sld-ttl {
+        font-size: 2.571em;
+    }
+}
+
+@media all and (max-width: 767px) {
+    body#contacts.ip3-products-and-services.ip3-marine #bold-intro-text .font35 {
+        font-size: 2.429em;
+        line-height: 1;
+    }
+    body#contacts.ip3-products-and-services.ip3-marine #intro2 .font35 {
+        font-size: 2.143em;
+    }
+    body#contacts.ip3-products-and-services.ip3-marine #module-downloads .fw-dwld-sld-ttl {
+        font-size: 2.143em;
+    }
+}
+
+/* Marine Contact page 295705 */
+
+@media all and (min-width: 2000px) {
+    .discover-items-wrapper {
+        margin: 0 auto !important;
+    }
+}
+
+#inner-spare-parts.fw-text-image .ImageDes {
+    display: none;
+}
+
+#MainWrapper .module-tesimonial .author-name,
+#MainWrapper .module-tesimonial .author-designation {
+    color: #1e3643
+}
+
+body#press-releases .new-site-fw .font18 ol ul {
+    margin-top: -15px;
+}
+
+/*============Rebranding -----Blue Color changes===============*/
+
+.fw-intro-section .sec-ttl,
+#MainWrapper .product-item-title,
+#MainWrapper #module-contacts .img-cnt-on-img-content .font18links.font40 {
+    color: #10069f;
+}
+
+#MainWrapper .product-item:hover .product-item-title,
+#MainWrapper .product-item:hover .icon-chevron-right {
+    color: #006dff
+}
+
+#MainWrapper .product-item:hover .product-item-title .icon-chevron-right-new:before,
+#MainWrapper .product-item a:hover .product-item-title .icon-chevron-right-new:before,
+#MainWrapper .product-item product-item-inner:hover .product-item-title .icon-chevron-right-new:before {
+    color: #006dff
+}
+
+/*============Rebranding -----Blue Color changes Ends===============*/
+
+.story-popup-wrapper .ar-wrap .tabs li p {
+    padding-bottom: 0;
+    text-transform: none;
+}
+
+.story-popup-wrapper .ar-wrap .tab-left,
+.ar-wrap .tab-right {
+    width: 50%;
+    float: left;
+}
+
+.story-popup-wrapper .ar-wrap .tab-left {
+    padding-top: 15px;
+}
+
+.story-popup-wrapper .ar-wrap .tab-right {
+    padding-top: 75px;
+    float: right;
+}
+
+.story-popup-wrapper .ar-wrap .tab-right .icon-download {
+    color: #fa4692;
+    height: 20px;
+    font-size: 1em;
+    left: -9px;
+    margin-left: 6px;
+    overflow: hidden;
+    position: absolute;
+    top: 3px;
+}
+
+.story-popup-wrapper .ar-wrap .tab-right .icon-download:before {
+    content: "\e313";
+    font-family: new-icomoon;
+}
+
+.story-popup-wrapper .PadBot0 {
+    padding-bottom: 0 !important;
+}
+
+.story-popup-wrapper .fw-tabbed-wrap-inner.fw-tabbed-two-col .tab-list {
+    display: none;
+}
+
+@media all and (max-width: 1399px) {
+    .story-popup-wrapper .ar-wrap .tab-left {
+        padding-top: 20px;
+    }
+    .story-popup-wrapper .marBot25 {
+        margin-bottom: 10px !important;
+    }
+    .story-popup-wrapper .ar-wrap .tab-right {
+        padding-top: 65px;
+    }
+}
+
+@media all and (max-width: 991px) {
+    .story-popup-wrapper .ar-wrap .tab-left {
+        padding-top: 30px;
+    }
+    .story-popup-wrapper .ar-wrap .tab-right {
+        padding-top: 0;
+    }
+    .story-popup-wrapper .ar-wrap .tab-right {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .story-popup-wrapper .ar-wrap .tab-left {
+        width: 100%;
+        text-align: center;
+    }
+    .story-popup-wrapper .ar-wrap .tabs li p {
+        padding-top: 7px;
+    }
+    .story-popup-wrapper .ar-wrap .tab-left-content,
+    .glance-right-content {
+        margin: 0 auto;
+        max-width: 600px;
+        float: none;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .story-popup-wrapper .ar-wrap .tab-left {
+        padding-top: 20px;
+    }
+    .story-popup-wrapper .ar-priority-wrap {
+        padding-top: 5px;
+    }
+}
